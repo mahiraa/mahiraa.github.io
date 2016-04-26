@@ -541,3 +541,108 @@ a.scroll:hover {
 	cursor: pointer;
 }
 
+
+
+@media (max-width: 1226px) {
+	#ecarrow {
+		margin-top: 40px;
+	}
+
+	#my-image {
+		margin-right: -50px;
+}
+}
+
+@media (max-width: 1150px) {
+	
+	#cal {
+		opacity: 0;
+	}
+
+	#ucb {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 1020px) {
+
+	#mes {
+		opacity: 0;
+	}
+
+	#valedictorian {
+		opacity: 0;
+	}
+
+	
+	#contactheader {
+		font-size: 72;
+		color: white;
+		position: absolute;
+		text-align: center;
+		margin: 30px;
+		margin-top: 40px auto;
+	}
+
+	
+}
+
+
+@media (max-width: 1000px) {
+
+	#firstpage, #ec {
+		margin-top: 0px;
+	}
+
+	#home {
+		opacity: 0;
+	}
+
+	#pyramids {
+		opacity: 0;
+	}
+
+	#my-image {
+		opacity: 0;
+	}
+
+	#contactheader {
+		margin-left: 25%;
+	}
+	.contact-info {
+		position: absolute;
+		margin: 80px auto;
+		margin-right: 25%;
+		text-align: center;
+
+	}
+
+	#contact-section {
+		height: 60%;
+
+	}
+
+	.fadeincontent {
+		opacity: 1;
+	}
+	
+
+}
+
+@media (max-width: 850px) {
+	#ec-title, #contactheader {
+		font-size: 60;
+	}
+}
+
+@media (max-width: 800px;) {
+	.grid-block {
+		width: 80%;
+		height: 50%;
+	}
+}
+
+
+
+
+
