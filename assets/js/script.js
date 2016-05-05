@@ -1,43 +1,49 @@
 $(document).ready(function() {
-
-$('#pin01').animate({ opacity: 0}, 0).delay(600);
-$('#pin01').animate({ opacity: 1}, 500);
-
-$('#pin02').animate({ opacity: 0}, 0).delay(1100);
-$('#pin02').animate({ opacity: 1}, 500);
-
-$('#pin03').animate({ opacity: 0}, 0).delay(1500);
-$('#pin03').animate({ opacity: 1}, 500);
-
-$('#pin04').animate({ opacity: 0}, 0).delay(1800);
-$('#pin04').animate({ opacity: 1}, 500);
-
-$('#pin05').animate({ opacity: 0}, 0).delay(2100);
-$('#pin05').animate({ opacity: 1}, 500);
-
-$('#pin06').animate({ opacity: 0}, 0).delay(2300);
-$('#pin06').animate({ opacity: 1}, 500);
-
-$('#pin07').animate({ opacity: 0}, 0).delay(2500);
-$('#pin07').animate({ opacity: 1}, 500);
-
-$('#pin08').animate({ opacity: 0}, 0).delay(2700);
-$('#pin08').animate({ opacity: 1}, 500);
+    
+    
+    $(window).scroll( function(){
+    
+        $('.fadeincontent').each( function(i){
+            
+            var bottom_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_window = $(window).scrollTop() + $(window).height();
+            
+            
+            if(bottom_window > bottom_object){
+                
+                $(this).animate({'opacity':'1'},2500);
+                    
+            }
+            
+        }); 
+    
+    });
 
 
-$('#pin09').animate({ opacity: 0}, 0).delay(2800);
-$('#pin09').animate({ opacity: 1}, 500);
+
+    $("a[href='#top']").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, 1000);
+      return false;
+    });
+    
 
 
-$('#pin10').animate({ opacity: 0}, 0).delay(300);
-$('#pin10').animate({ opacity: 1}, 500);
 
+    $('.fade').hover(
+        function(){
+            $(this).find('.image-caption').fadeIn(250);
+        },
+        function(){
+            $(this).find('.image-caption').fadeOut(250);
+        }
+    );
 
-$('.overlay').animate({ opacity: 0}, 0).delay(2000);
-$('.overlay').animate({ opacity: 1}, 1800);
-
-$('#logo').animate({ opacity: 0}, 0).delay(2800);
-$('#logo').animate({ opacity: 1}, 1800);
-
-
+    $('.fade').hover(
+        function(){
+            $(this).find('.image-caption2').fadeIn(250);
+        },
+        function(){
+            $(this).find('.image-caption2').fadeOut(250);
+        }
+    );
 });
