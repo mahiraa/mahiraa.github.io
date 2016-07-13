@@ -1,0 +1,273 @@
+body {
+	font-family: "Roboto Condensed";
+	color: #2e2e2e;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar-left {
+	position: relative;
+	float: left;
+	margin-top: 0px;
+	margin-left: -8px;
+	width: 200px;
+	height: 2000px;
+	
+}
+
+.sidebar-right {
+	position: relative;
+	float: right;
+	margin-top: -20px;
+	width: 200px;
+	height: 2000px;
+}
+
+.logo {
+	position: absolute;
+	margin: 5px;
+	float: left;
+}
+
+#listcontainer {
+	width: 100%;
+	height: 100%;
+}
+
+.menu {
+	width: 100%;
+	float: right;
+	list-style-type: none;
+}
+
+.menu-item {
+	float: right;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0px 10px;
+	margin-right: 20px;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #2e2e2e;
+}
+
+
+#membership {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10vw;
+}
+
+#membership-img {
+	margin: 20px 14%;
+	position: absolute;
+}
+
+#membership-img img {
+	width: 100%;
+	height: auto;
+}
+
+.mem-type-title {
+	font-size: 24px;
+	position: absolute;
+	margin-top: 100px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+
+#core-title {
+	position: relative;
+	width: 160px;
+	margin-top: -50px;
+	float: right;
+}
+
+.mem-type-description {
+	font-weight: 300;
+	position: relative;
+	max-width: 60%;
+	line-height: 1.5;
+}
+
+#gen-description {
+	margin-top: 140px;
+}
+
+#core-description {
+	margin-top: -10px;
+	position: relative;
+	float: right;
+	text-align: right;
+
+}
+
+#move {
+	margin-top: 80px;
+}
+
+/*
+#gvc {
+	margin-top: 30px;
+
+}*/
+
+/*.gen-benefit {
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #89e1ff;
+	max-width: 15vw;
+	margin-left: 20%
+
+}
+*/
+
+
+/*
+.gen-benefit {
+	position: relative;
+	
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px;
+	max-width: 15vw;
+	background-color: #89e1ff;
+	margin-left: 5%;
+
+
+}
+
+.core-benefit {
+	position: relative;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #14c4ff;
+	max-width: 15vw;
+	margin-left: 5%;
+	
+}*/
+
+table {
+	margin: 0 auto;
+	margin-top: 400px;
+	text-align: center;
+	width: 400px;
+
+}
+
+td {
+	padding: 10px 20px;
+	width: 400px;
+
+}
+
+th {
+	background-color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 6px;
+	font-weight: 700;
+}
+
+.col1 {
+	background-color: #89e1ff;
+}
+
+.col2 {
+	background-color: #14c4ff;
+}
+
+.empty {
+	background-color: white;
+}
+
+#release {
+	margin-top: 120px;
+	text-align: center;
+	font-size: 26;
+}
+
+#apply {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+#width {
+	width: 100%;
+}
+
+.button {
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+	letter-spacing: 2px;
+	padding: 10px 10px;
+	background-color: white;
+	border: 2px solid #2e2e2e;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	width: 30vw;
+
+
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	background-color: #2e2e2e;
+	color: white;
+}
+
+
+/*mobile*/
+@media (max-width: 760px){
+	.logo {
+		width: 60px;
+		height: auto;
+	}
+	.sidebar-left {
+		width: 100px;
+		height: 1000px;
+	}
+
+	.sidebar-right {
+		width: 100px;
+		height: 1000px;
+	}
+
+	.menu-item {
+		font-size: 12px;
+		margin: 2px;
+		margin-top: -10px;
+		margin-right: 10px;
+	}
+
+	#membership-img {
+		margin: 20px 80px;
+	}
+
+	

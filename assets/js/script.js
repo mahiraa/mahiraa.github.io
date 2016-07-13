@@ -1,49 +1,57 @@
-$(document).ready(function() {
-    
-    
-    $(window).scroll( function(){
-    
-        $('.fadeincontent').each( function(i){
-            
-            var bottom_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_window = $(window).scrollTop() + $(window).height();
-            
-            
-            if(bottom_window > bottom_object){
-                
-                $(this).animate({'opacity':'1'},2500);
-                    
-            }
+jQuery(function($) {
+    var divs = $('#welcome');
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        divs.css({ 
+            'margin-top' : 120 + (st/3)+"px", 
             
         }); 
-    
     });
-
-
-
-    $("a[href='#top']").click(function() {
-      $("html, body").animate({ scrollTop: 0 }, 1000);
-      return false;
-    });
-    
-
-
-
-    $('.fade').hover(
-        function(){
-            $(this).find('.image-caption').fadeIn(250);
-        },
-        function(){
-            $(this).find('.image-caption').fadeOut(250);
-        }
-    );
-
-    $('.fade').hover(
-        function(){
-            $(this).find('.image-caption2').fadeIn(250);
-        },
-        function(){
-            $(this).find('.image-caption2').fadeOut(250);
-        }
-    );
 });
+
+
+jQuery(function($) {
+    var divs = $('#box1');
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        divs.css({ 
+            'opacity' : 0 + st/500
+            
+        }); 
+    });
+});
+
+jQuery(function($) {
+    var divs = $('#box2');
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        divs.css({ 
+            'opacity' : 0 + st/700
+            
+        }); 
+    });
+});
+
+jQuery(function($) {
+    var divs = $('#box3');
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        divs.css({ 
+            'opacity' : 0 + st/900
+            
+        }); 
+    });
+});
+
+jQuery(function($) {
+    var divs = $('#box4');
+    $(window).on('scroll', function() {
+        var st = $(this).scrollTop();
+        divs.css({ 
+            'opacity' : 0 + st/1100
+            
+        }); 
+    });
+});
+
+

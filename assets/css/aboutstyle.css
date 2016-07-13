@@ -58,80 +58,65 @@ body {
 	color: #2e2e2e;
 }
 
-#welcome {
-	margin-top: 450px;
-	font-size: 60px;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-#of {
-	margin-top: -15px;
-	position: relative;
-	font-family: "Great Vibes";
-	font-size: 40px;
-}
-
-#ints {
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	text-align: center;
-	font-size: 25px;
-
-}
-/*
-.fullwidth-imgcontainer {
+#about-img {
+	margin: 20px 14%;
 	position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}*/
-
-.videoWrapper {
-	margin-top: 120px;
-	margin-left: 130px;
-	margin-right: 140px;
-	position: relative;
-	padding-bottom: 39.25%;
-	height: 0;
 }
 
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
+#about-img img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 
-.button {
+#about-isab {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 26px;
-	margin: 10% 40%;
-	letter-spacing: 2px;
-	padding: 20px 10px;
-	background-color: white;
+	font-weight: 700;
+	font-size: 10vw;
+}
+
+.infobox {
+	text-align: center;
+	position: absolute;
+	width: 35vw;
 	border: 2px solid #2e2e2e;
-	transition: 0.5s;
-	-moz-transition: 0.5s;
-	-webkit-transition: 0.5s;
-
+	margin: 100px;
+	margin-top: 40%;
+	padding: 20px;
+	font-size: 1.8vw;
 }
 
-a {
-	text-decoration: none;
-	color: black;
+#box1 {
+	margin-top: 45%;
+	margin-left: 20%;
+	background-color: #14c4ff;
 }
 
-.button:hover {
-	background-color: #2e2e2e;
-	color: white;
+#box2 {
+	margin-top: 63%;
+	margin-left: 39%;
+	background-color: #62d8ff;
 }
 
+#box3 {
+	margin-top: 86%;
+	margin-left: 20%;
+	background-color: #89e1ff;
+}
 
+#box4 {
+	margin-top: 116%;
+	margin-left: 39%;
+	background-color: #d8f5ff;
+}
 
+#experience {
+	position: relative;
+	margin-top: 141%;
+	text-align: center;
+	font-size: 2.8vw;
+	text-transform: uppercase;
+}
 
 
 /*mobile*/
@@ -157,22 +142,6 @@ a {
 		margin-right: 10px;
 	}
 
-	.videoWrapper {
-		margin-left: 80px;
-		margin-right: 80px;
+	#about-img {
+		margin: 20px 80px;
 	}
-
-
-
-}
-
-
-@media (max-width: 1050px){
-	#welcome {
-		font-size: 45px;
-	}
-
-	#of {
-		font-size: 25px;
-	}
-}
