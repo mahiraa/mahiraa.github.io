@@ -1,5 +1,5 @@
 body {
-	font-family: "Work Sans";
+	font-family: "Nunito Sans", sans-serif;
 	color: #616161;
 	height: 120%;
 }
@@ -9,11 +9,11 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 5vw;
+	font-size: 6vw;
 	letter-spacing: 4px;
 	position: relative;
-	margin-top: 30px;
 	color: #424242;
+	font-family: "Aref Ruqaa", serif;
 
 }
 
@@ -33,6 +33,10 @@ body {
 	-webkit-transition: 0.5s;
 	text-transform: uppercase;
 
+}
+
+#currentpage {
+	opacity: 1;
 }
 
 a {
