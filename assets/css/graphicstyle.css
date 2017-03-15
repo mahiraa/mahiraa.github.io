@@ -134,9 +134,14 @@ section {
 	margin: 5px;
 	margin-top: 50px;
 	text-align: center;
-	font-size: 4vw;
-	text-transform: uppercase;
-	font-weight: 200;
+	font-size: 3vw;
+	
+	font-weight: 500;
+	/*background-color: #424242;
+*/
+	color: #424242;
+	padding: 10px;
+
 
 }
 

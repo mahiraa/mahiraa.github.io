@@ -132,11 +132,27 @@ section {
 	margin: 5px;
 	margin-top: 50px;
 	text-align: center;
-	font-size: 4vw;
+	font-size: 3vw;
 	text-transform: lowercase;
-	font-weight: 200;
+	font-weight: 500;
+	/*background-color: #424242;
+*/
+	color: #424242;
+	padding: 10px;
+
 
 }
+
+.subsubheadings {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 1vw;
+	letter-spacing: 2px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
 
 img {
 	width: 49%;
