@@ -130,3 +130,19 @@ ul {
 	position: relative;
 	margin-top: 150px;
 }
+
+
+.pictureContainer {
+    height: 125px;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.pictureContainer img {
+    transform: translate3d(0px, 0px, 0px);
+    /*transition: transform .1s ease-in-out;*/
+}
+.pictureContainer img:hover {
+    transform: translate3d(0px, -125px, 0px);
+}

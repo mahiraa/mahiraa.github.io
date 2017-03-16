@@ -145,7 +145,7 @@ section {
 
 }
 
-img {
+section img {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
@@ -167,5 +167,21 @@ img {
 
 #imgtopmarg {
 	margin-top: 10px;
+}
+
+
+.pictureContainer {
+    height: 125px;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.pictureContainer img {
+    transform: translate3d(0px, 0px, 0px);
+    /*transition: transform .1s ease-in-out;*/
+}
+.pictureContainer img:hover {
+    transform: translate3d(0px, -125px, 0px);
 }
 
